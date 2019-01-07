@@ -4,7 +4,6 @@ import csv
 import logging
 import os
 from conans.client import conan_api
-from conans.model.ref import ConanFileReference
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 

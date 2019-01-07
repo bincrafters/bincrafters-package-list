@@ -7,4 +7,5 @@ install:
   - pip install conan
 
 script:
+  - conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
   - python bincrafters-package-list.py
